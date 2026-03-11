@@ -7,6 +7,8 @@ from random import randint
 user_numero = int(input("Digite um número entre 0 e 5: "))
 computer_numero = randint(0,5)
 
+
+
 print(f"Você ganhou, numero digitado {user_numero} e o numero escolhido pelo computador {computer_numero}") if user_numero == computer_numero else print("Você perdeu!")
 
 
@@ -75,7 +77,8 @@ print(f"Seu salário com o aumento de 10% será R${(salario * 0.10) + salario:.2
 
 lado_a = float(input("Digite o lado A da reta: "))
 lado_b = float(input("Digite o lado B da reta: "))
-lado_c = float(input("Digite o lado C da reta: "))
+lado_c = float(input("Di8gite o lado C da reta: "))
 
 
-print("Esses 3 Lados podem formar um triangulo") if (lado_A + lado_B) > lado_C and (lado_A + lado_C) > lado_B and (lado_B + lado_C) > lado_A else print("Esses lados não podem formar um triangulo")
+print("Esses 3 Lados podem formar um triangulo") if (lado_a + lado_b) > lado_c and (lado_a + lado_c) > lado_b and (lado_b + lado_c) > lado_a else print("Esses lados não podem formar um triangulo")
+
